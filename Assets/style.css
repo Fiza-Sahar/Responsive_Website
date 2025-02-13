@@ -1,0 +1,47 @@
+/* Apply basic styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.box1 { 
+    background: red; 
+} 
+.box2 { 
+    background: blue; 
+} 
+.box3 { 
+    background: green; 
+} 
+.box4 { 
+    background: orange; 
+} 
+.box5 { 
+    background: purple; 
+} 
+
+/* Parent Flexbox Container */
+.container {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    align-content: space-between; 
+    gap: 10px; 
+    border: 2px solid #333;
+    padding: 20px;
+   
+}
+/* Child Items */
+.box {
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+}
+
+
